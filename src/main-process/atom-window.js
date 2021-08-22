@@ -42,6 +42,8 @@ module.exports = class AtomWindow extends EventEmitter {
 
     const options = {
       show: false,
+      frame: false,
+      transparent: true,
       title: getAppName(),
       tabbingIdentifier: 'atom',
       webPreferences: {
